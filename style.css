@@ -1,0 +1,261 @@
+body {
+    background-color: var(--cor-fundo);
+    padding: 0px ;
+    margin: 0px;
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+}
+
+:root {
+    --cor-primaria:  #f9f9f9;
+    --cor-secundaria:  #167BF7;
+    --cor-secundaria-hover:  #0a58b9;
+    --cor-terciaria: #C0C0C0;
+    --cor-fundo: #00030C;
+    --font-texto-corrido: 16px;
+    --font-titulos: 48px;
+    --font-principal: 'Inter';
+}
+
+ /*Altera as cores da seleção*/
+ ::selection{ 
+    background-color: rgb(255, 255, 255);
+    color: rgb(64, 64, 64);
+}
+
+
+.container h1 {
+    color: white;
+}
+
+.
+
+.principal {
+    
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(./image/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__botao {
+    background-color: #167BF7;
+    color: white;
+    padding: 20px 70px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-principal);
+    margin-bottom: 1em;
+    font-weight: 400;
+    transition: 500ms;
+    margin: auto;
+    margin-bottom: 1em !important;
+
+
+}
+
+.container__botao:hover {
+    background-color: #0a58b9;
+    transition: 500ms;
+}
+
+.container__outline:hover {
+    border: 1px solid #0a58b9;
+    background-color: #0a58b9;
+    transition: 500ms;
+}
+
+
+.container__outline {
+    border: 1px solid #C0C0C0;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    padding: 20px 70px;
+    font-family: var(--font-principal);
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    
+    margin: auto;
+}
+
+.container__paragrafo {
+    font-size: 12px;
+    color: #C0C0C0;
+    text-align: center;
+    font-family: var(--font-principal);
+}
+
+.container h1 {
+    font-family: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+    font-size: 28px;
+    width:70%;
+    margin: auto;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa { 
+    margin: 0 6em;
+    
+}
+
+/*Sessão 2*/
+.sessao__2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #00030cc2;
+}
+
+.sessao__2 img {
+    width: 50%;
+    margin: auto;
+    
+}
+
+.sessao__2__titulo {
+    text-align: left;
+    color: white;
+    font-size: 48px;
+    font-family: 'Inter';
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sessao__2__descricao {
+    color: #C0C0C0;
+    font-family: 'Inter';
+    text-align: left;
+    max-width: 70%;
+    
+}
+
+/*Sessão 3*/
+.sessao__3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0px 100px;
+    padding: 50px 0px;
+}
+
+.sessao__3 img {
+    margin: auto;
+}
+
+.sessao__3 .container__botao {
+    width: 200px;
+    display: inline-block;
+    margin: 0px 100px;
+}
+
+.sessao__3 .sessao__2__descricao {
+    margin-bottom: 30px;
+    padding: 0px 100px;
+    
+}
+.cards {
+    display: inline-block;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.sessao__final .sessao__2__titulo {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding: 50px 0px;
+}
+
+.dispositivos__titulos {
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.lista__item {
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.lista__link{
+    color: white;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+footer a { 
+    color: #C0C0C0;
+    text-decoration: none;
+    padding: 0px 30px 30px 30px;
+}
+
+.rodape__logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.rodape__texto {
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.rodape__texto:last-child {
+    margin-bottom: 100px;
+}
+
+.rodape__lista li {
+    padding-bottom: 50px;
+}
+
+.lista__link a:hover {
+    color: var(--cor-secundaria);
+    transition: 400ms;
+}
+
+.list__link a:active {
+    color: orangered;
+}
+
+.dispositivos__lista li:hover {
+    color: white;
+    background-color: var(--cor-secundaria-hover);
+    transition: 400ms;
+}
